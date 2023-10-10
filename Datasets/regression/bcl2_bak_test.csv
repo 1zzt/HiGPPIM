@@ -1,0 +1,9 @@
+SMILES,label
+COc1ccc(cc1)[C@@H]1C2=C(N=c3s\c(=C/c4ccc(o4)-c4cc(C(O)=O)ccc4C)c(=O)n13)c1ccccc1CC2,5.16
+Cc1c(Cl)c(nn1-c1ccccc1C(=O)N1Cc2ccccc2C[C@H]1CO)C(=O)N(c1ccccc1)c1ccccc1,7.3
+C[C@@](O)(c1ccc(Cl)cc1)c1ccc(Cl)c(CCOc2ccc(cc2)-c2ccc(cc2)C(O)=O)c1,6.34
+COc1ccc(cc1)[C@@H]1C2=C(N=c3s\c(=C/c4ccc(OCc5cccc(C(=O)O)c5)c(OC)c4)c(=O)n13)c1ccccc1CC2,4.76
+C[C@H](N1CCC(CC1)N1CCc2c(C1)ncnc2NS(=O)(=O)c1ccc(N[C@H](CCN2CCN(C)CC2)CSc2ccccc2)c(c1)S(=O)(=O)C(F)(F)F)c1cc(F)ccc1-c1ccc(Cl)cc1,7.1
+C[C@@H]1Cc2ccccc2CN1C(=O)c1ccccc1-n1nc(cc1C)C(=O)N(c1ccccc1)c1ccccc1,6.96
+CN(C)CC[C@H](CSc1ccccc1)Nc1ccc(cc1N(=O)=O)S(=O)(=O)Nc1nc(nc2CN(CCc12)C1CCN(Cc2ccccc2-c2ccc(Cl)cc2)CC1)C(F)(F)F,7.7
+CCN(CC)C(=O)c1nn(c(C)c1Br)-c1ccccc1C(=O)N1Cc2ccccc2C[C@H]1CO,5.44

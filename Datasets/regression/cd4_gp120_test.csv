@@ -1,0 +1,8 @@
+SMILES,label
+C[C@@H](Oc1cccc2oc(C)nc12)C(=O)N1CCN(C[C@H]1C)C(=O)c1ccccc1,5.69
+Fc1ccc(F)c2c(c[nH]c12)C(=O)C(=O)N1CCN(CC1)C(=O)c1ccccc1,9.46
+C[C@@H](Oc1cccc2[nH]nc(C)c12)C(=O)N1CCN(C[C@H]1C)C(=O)c1ccccc1,7.8
+O=C(N1CCN(CC1)C(=O)c1ccccc1)C(=O)c1c[nH]c2ccc(cc12)C#N,6.92
+C\C=C\n1cc(C(=O)C(=O)N2CCN(CC2)C(=O)c2ccccc2)c2ccccc12,5.17
+O=C(N1CCN(CC1)C(=O)c1ccccc1)C(=O)c1c[nH]c2c(cccc12)C#N,8.31
+Cn1cc(C(=O)C(=O)N2CCN(CC2)C(=O)c2ccccc2)c2ccccc12,6.58

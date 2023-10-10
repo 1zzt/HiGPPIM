@@ -1,0 +1,8 @@
+SMILES,label
+Oc1cc(O)c2c(c1)oc(cc2=O)-c1ccc(O)c(O)c1,6.35
+COc1cc(C=NNc2ccc(cc2N(=O)=O)S(=O)(=O)Nc2ccccc2C(O)=O)ccc1O,4.6
+NNC(=O)c1[nH]cnc1C(=O)Nc1ccccn1,6.4
+Cc1ccc(NC(=O)c2nc[nH]c2C(=O)NN)cc1,4.8
+Oc1cc(O)c(C(=O)C=Cc2cccc(O)c2O)c(O)c1,6.59
+CCOc1ccc(cc1)\N=C(/c1nnn[nH]1)c1c(O)c2ccccc2n(C)c1=O,4.56
+O=N(=O)c1ccccc1C=NN1CCN(Cc2ccccc2)CC1,4.62

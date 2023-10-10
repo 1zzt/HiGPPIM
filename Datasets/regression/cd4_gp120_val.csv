@@ -1,0 +1,8 @@
+SMILES,label
+CNC(=O)c1cc(OC)c(O[C@@H](C)C(=O)N2CCN(C[C@H]2C)c2ncccn2)cn1,7.15
+Fc1cccc2c(c[nH]c12)C(=O)C(=O)N1CCN(CC1)C(=O)c1ccccc1,8.14
+Fc1cc(F)c2c(c[nH]c2c1)C(=O)C(=O)N1CCN(CC1)C(=O)c1ccccc1,9.38
+Brc1cccc2[nH]cc(C(=O)C(=O)N3CCN(CC3)C(=O)c3ccccc3)c12,8.35
+Brc1cccc2c(c[nH]c12)C(=O)C(=O)N1CCN(CC1)C(=O)c1ccccc1,7.76
+CNC(=O)c1cccc(O[C@H](C)C(=O)N2CCN(C[C@H]2C)C(=O)c2ccccc2)c1C,4.92
+O=C(N1CCN(CC1)C(=O)c1ccccc1)C(=O)c1c[nH]c2ccc(cc12)N(=O)=O,8.42
