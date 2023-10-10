@@ -31,11 +31,12 @@ parser = argparse.ArgumentParser(description='Optional app description')
 parser.add_argument('--dataset_name', type=str, required=False, default='bcl2_bak')
 parser.add_argument('--task', type=str, required=False, default='classification')
 parser.add_argument('--cuda', type=str, required=False, default='3')
+parser.add_argument('--batch_size', type=int, required=False, default='32')
 args = parser.parse_args()
 dataset_name = args.dataset_name
 cuda = args.cuda
 task_name = args.task
-
+batch_size = args.batch_size
 
 # bcl2_bak bromodomain_histone cd4_gp120 ledgf_in lfa_icam mdm2_p53 ras_sos1 xiap_smac 
 
@@ -93,6 +94,7 @@ configs = {
     'data_path': data_path,
     'task_name': task_name,
     'dataset_name': dataset_name,
+    'batch_size': batch_size
 }
 
 train_loader, val_loader, test_loader = get_data(configs)
