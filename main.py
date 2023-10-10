@@ -32,11 +32,13 @@ parser.add_argument('--dataset_name', type=str, required=False, default='bcl2_ba
 parser.add_argument('--task', type=str, required=False, default='classification')
 parser.add_argument('--cuda', type=str, required=False, default='3')
 parser.add_argument('--batch_size', type=int, required=False, default='32')
+parser.add_argument('--lr', type=float, required=False, default='0.0001')
 args = parser.parse_args()
 dataset_name = args.dataset_name
 cuda = args.cuda
 task_name = args.task
 batch_size = args.batch_size
+lr = args.lr
 
 # bcl2_bak bromodomain_histone cd4_gp120 ledgf_in lfa_icam mdm2_p53 ras_sos1 xiap_smac 
 
@@ -123,7 +125,7 @@ model = HGA(in_features = 57, hidden_size = 256, gat_pw_headers = 4, gat_pw_edge
             hyg_headers = 4, hyg_edge_dim = 73, gat_fg_headers = 4).to(device)
 
 # model(batch)
-optimizer = torch.optim.Adam(model.parameters(), lr=0.0001)
+optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
 folder_path = os.path.join(save_path, 'pth', dataset_name)
 if not os.path.exists(folder_path):
