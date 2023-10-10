@@ -29,12 +29,12 @@ from prettytable import PrettyTable
 
 parser = argparse.ArgumentParser(description='Optional app description')
 parser.add_argument('--dataset_name', type=str, required=False, default='bcl2_bak')
-parser.add_argument('--task_name', type=str, required=False, default='classification')
+parser.add_argument('--task', type=str, required=False, default='classification')
 parser.add_argument('--cuda', type=str, required=False, default='3')
 args = parser.parse_args()
 dataset_name = args.dataset_name
 cuda = args.cuda
-task_name = args.task_name
+task_name = args.task
 
 
 # bcl2_bak bromodomain_histone cd4_gp120 ledgf_in lfa_icam mdm2_p53 ras_sos1 xiap_smac 
