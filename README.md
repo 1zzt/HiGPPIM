@@ -1,7 +1,7 @@
 # HiGPPIM - A Hierarchical Graph Neural Network Framework for Predicting Protein-Protein Interaction Modulators with Functional Group Information and Hypergraph Structure
 
 ## 1. overview
-![image](https://github.com/1zzt/PPII-AEAT/raw/main/overview.png)
+![image](https://github.com/1zzt/HiGppim/raw/main/overview.png)
 ## 2. Prerequisites
 - networkx 3.1 
 - numpy 1.23.5
@@ -14,11 +14,10 @@
 - torch-scatter 2.1.0+pt112cu113
 - torch-sparse 0.6.16+pt112cu113
 ## 3. Datasets
-We collected inhibitor and non-inhibitor data for nine different PPI families from Rodrigues’s work. These PPI families are **Bcl2-Like/Bak-Bax**, **Bromodomain/Histone**, **Cyclophilins**, **HIF-1a/p300**, **Integrins**, **LEDGF/IN**, **LFA/ICAM**, **Mdm2-Like/P53**, and **XIAP/Smac**.
-
-We put the data for identification of PPI-specific small molecule inhibitors (classification task) on the `Datasets/classification` folder and put the data for quantitative prediction of inhibitory potency (regression task) on the `Datasets/regression` folder.
+For PPIM identification tasks, PPI families include **Bcl2-Like/Bak-Bax**, **Bromo Domain/Histone**, **CD4/gp120**, **LEDGF/IN**, **LFA/ICAM**, **Mdm2-Like/P53**, **Ras_SOS1**, and **XIAP/Smac**.
+For PPIM potency prediction tasks, PPI families include **Bcl2-Like/Bak-Bax**, **Bromo Domain/Histone**, **CD4/gp120**, **LEDGF/IN**, **LFA/ICAM**, **Mdm2-Like/P53**, and **XIAP/Smac**.
 
 ## 4. Usage
 ```
-python main.py --dataset bcl2_bak --task regression --num_epochs 100 --batch_size 32 --lr 0.001 --gpu 0
+python main.py --dataset bcl2_bak --task classification --batch_size 32 --lr 0.0001 --gpu 0
 ```
