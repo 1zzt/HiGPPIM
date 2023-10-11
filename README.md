@@ -1,7 +1,7 @@
 # HiGPPIM - A Hierarchical Graph Neural Network Framework for Predicting Protein-Protein Interaction Modulators with Functional Group Information and Hypergraph Structure
 
 ## 1. overview
-![image](https://github.com/1zzt/HiGppim/raw/main/overview.png)
+![image](https://github.com/1zzt/HiGppim/raw/main/overview.jpg)
 ## 2. Prerequisites
 - python 3.9.0
 - pytorch 1.12.0
