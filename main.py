@@ -43,8 +43,8 @@ lr = args.lr
 # bcl2_bak bromodomain_histone cd4_gp120 ledgf_in lfa_icam mdm2_p53 ras_sos1 xiap_smac 
 
 
-data_path = '/home/zitong/project/PPIM/Datasets/HIGPPIM/'  # pdCSM-PPI, SMMPPI-usesametrainset PPIMp
-save_path = '/data/zhangzt/PPIM/hypergraph/infohub/' 
+data_path = './Datasets'  # pdCSM-PPI, SMMPPI-usesametrainset PPIMp
+save_path = './' 
 
 device = torch.device(("cuda:" + cuda) if torch.cuda.is_available() else "cpu") 
 
